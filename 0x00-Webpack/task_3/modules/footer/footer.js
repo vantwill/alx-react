@@ -1,4 +1,7 @@
+// interesting jquery import thanks to babel
 import $ from 'jquery';
+// styles
 import './footer.css';
 
-$('<p>Copyright - Holberton School</p>').appendTo("body");
+// append elements
+$('body').append(`<p>Copyright - Holberton School</p>`);

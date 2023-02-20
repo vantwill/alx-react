@@ -1,8 +1,9 @@
+// interesting jquery import thanks to babel
 import $ from 'jquery';
+// styles
 import './header.css';
 
-$('body').append('<header></header>');
-$('header').append("<div id='logo'></div>");
-$('header').append('<h1>Holberton Dashboard</h1>');
-
+// append elements
+$('body').append(`<div id="logo"></div>`);
+$('body').append(`<p>Holberton Dashboard</p>`);
 console.log('Init header');
