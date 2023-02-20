@@ -8,7 +8,7 @@
     "build": "webpack",
     "start-dev": "webpack-dev-server --open"
   },
-  "author": "Zac Woll",
+  "author": "Tewolde Gebrehiwot",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
