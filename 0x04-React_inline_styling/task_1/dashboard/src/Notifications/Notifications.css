@@ -1,0 +1,7 @@
+ul li[data-notification-type='default'] {
+  color: #0000ff;
+}
+
+ul li[data-notification-type='urgent'] {
+  color: #ff0000;
+}
